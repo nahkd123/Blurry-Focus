@@ -11,12 +11,13 @@ in vec2 texCoord;
 #define PI 3.1415926535898
 #define PI_2 6.28318530718
 
+// Edit parameters here
 #define BLUR_DIRECTIONS 16.0
 #define BLUR_QUALITY 8.0
 
 #define FOCUS_POINT 0.025
 #define FOCUS_SPREAD 0.045
-#define BLUR_SIZE 0.06
+#define BLUR_SIZE 0.03
 
 #define FOCUS_POINT_MIN (FOCUS_POINT - FOCUS_SPREAD)
 #define FOCUS_POINT_MAX (FOCUS_POINT + FOCUS_SPREAD)
