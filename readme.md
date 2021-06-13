@@ -20,10 +20,6 @@ Parameters can be changed inside assets/minecraft/shaders/program/transparency.f
 // Blur quality, higher = better
 #define BLUR_QUALITY 8.0
 
-// The focus point, a.k.a where the point that receives no blur
-#define FOCUS_POINT 0.025
-#define FOCUS_SPREAD 0.045
-
-// Blurriness
-#define BLUR_SIZE 0.03
+#define FOCUS_SPREAD 0.00
+#define BLUR_SIZE 0.3
 ```
